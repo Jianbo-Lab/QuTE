@@ -6,7 +6,9 @@ import numpy as np
 import os
 def main():
 	parser = argparse.ArgumentParser() 
+	# Number of replicates.
 	parser.add_argument('--replicate',type = int, default = 1000) 
+	# Which experiment to run.
 	parser.add_argument('--experiment',type = str,
 		default = 'gnp', choices = ['gnp','grid','plot_gnp','plot_grid'])
  
@@ -19,24 +21,28 @@ def main():
 			mu=2,
 			alpha=0.2,
 			replicate=args.replicate) 
+		print 'Data have been saved to results/gnp/'
 
 	elif args.experiment == 'grid':
 		output = experiment_on_grid(variable = 'c',
 			var_range = np.arange(1,16,1),
 			pi1 = 0.3, c = 1, generator = gt.lattice, mu = 2, alpha = 0.2,
 			replicate = args.replicate)
+		print 'Data have been saved to results/gnp/'
 
 	elif args.experiment == 'plot_gnp':
 		path = "results/gnp/"
 		for file in os.listdir(path):
 			if file.endswith(".save.npy"):
 				plot_gnp(path, file)
+		print 'Figures have been saved to results/figures/'
 
 	elif args.experiment == 'plot_grid':
 		path = "results/grid/"
 		for file in os.listdir(path):
 			if file.endswith(".save.npy"):
 				plot_grid(path, file)
+		print 'Figures have been saved to results/figures/'
 
 if __name__ == '__main__':
 	main()
