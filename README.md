@@ -10,6 +10,7 @@ This project was written in Python 2.7. It currently requires the package graph_
 In addition, please 'pip install' the following packages: 
 - `numpy`
 - `scipy`
+- `pandas`
 - `statsmodels`
 - `matplotlib`
 
@@ -32,11 +33,16 @@ python run_simulations.py --experiment plot_gnp
 # Plot figures for the second experiment on grid graphs.
 python run_simulations.py --experiment plot_grid
 ```
-Data and plots used in our paper use 1,000 replications. The figures can be found in results/figures. 
+Data and plots used in our paper use 1,000 replications. The figures can be found in simulations/results/figures. 
 
 We also provide the source code to replicate our experiment on Intel Lab Data:
 
 ```bash
+# Extract and clean the real data, run QuTE and generate the three figures.
 cd applications/
 python run_real_data.py
 ```
+The generated figures can be found in applications/results. 
+
+
+
