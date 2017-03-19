@@ -27,10 +27,10 @@ python run_simulations.py --replicate 10 --experiment grid
 
 # The figures can only be plotted after the corresponding experiment has been run.
 # Plot figures for the first experiment on G(n,p).
-python run_simulations.py --replicate 10 --experiment plot_gnp
+python run_simulations.py --experiment plot_gnp
 
 # Plot figures for the second experiment on grid graphs.
-python run_simulations.py --replicate 10 --experiment plot_grid
+python run_simulations.py --experiment plot_grid
 ```
 Data and plots used in our paper use 1,000 replications. The figures can be found in results/figures. 
 
