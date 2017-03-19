@@ -5,7 +5,7 @@ Code for reproducing key results in the paper [QuTE algorithms for decentralized
 
 ## Dependencies
 
-This project was written in Python. It currently requires the package graph_tool of version 2.22 available on https://graph-tool.skewed.de. 
+This project was written in Python 2.7. It currently requires the package graph_tool of version 2.22 available on https://graph-tool.skewed.de. 
 
 In addition, please 'pip install' the following packages: 
 - `numpy`
