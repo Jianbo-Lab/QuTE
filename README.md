@@ -33,7 +33,10 @@ python run_simulations.py --experiment plot_gnp
 # Plot figures for the second experiment on grid graphs.
 python run_simulations.py --experiment plot_grid
 ```
-Data and plots used in our paper use 1,000 replications. The figures can be found in simulations/results/figures. 
+Data and plots used in our paper use 1,000 replications. Below we plot the results from two experiments here. The figures can also be found in simulations/results/figures.  
+
+![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/FDR-Vary-p-rep-1000.eps) ![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/Power-Vary-p-rep-1000.eps)
+![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/FDR-Vary-c-grid-rep-1000.eps) ![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/Power-Vary-c-grid-rep-1000.eps)
 
 We also provide the source code to replicate our experiment on Intel Lab Data:
 
@@ -43,6 +46,5 @@ cd applications/
 python run_real_data.py
 ```
 The generated figures can be found in applications/results. 
-
-
+ 
 
