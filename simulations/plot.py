@@ -58,7 +58,7 @@ def plot_gnp_single(x,y,yerr, title, xlabel, ylabel, name, add_classical,
 		ax.set_xlabel(xlabel,fontsize = 28)
 		ax.set_ylabel(ylabel,fontsize = 28)
 		ax.set_ylim(bottom = 0,top=1)
-		plt.savefig(name, format='eps', dpi=1000)
+		plt.savefig(name, format='png', dpi=200)
 	else:
 		fig, ax = plt.subplots(nrows = 1, ncols = 1) 
 		ax.errorbar(x,y,yerr = yerr)
@@ -66,7 +66,7 @@ def plot_gnp_single(x,y,yerr, title, xlabel, ylabel, name, add_classical,
 		ax.set_xlabel(xlabel,fontsize = 28)
 		ax.set_ylabel(ylabel,fontsize = 28)
 		ax.set_ylim(bottom = 0,top=1)
-		plt.savefig(name, format='eps', dpi=1000)		
+		plt.savefig(name, format='png', dpi=200)		
 
 
 def plot_gnp(path, saved_file):
@@ -84,7 +84,7 @@ def plot_gnp(path, saved_file):
 		title = r'FDR v.s. {}'.format(variable_in_word), 
 		xlabel = variable_in_word,
 		ylabel = r'Achieved FDR',
-		name = 'results/figures/FDR-Vary-p-rep-{}.eps'.format(rep), 
+		name = 'results/figures/FDR-Vary-p-rep-{}.png'.format(rep), 
 		add_classical = True,
 		 graphtype='FDR') 
 
@@ -92,7 +92,7 @@ def plot_gnp(path, saved_file):
 		title = r'Power v.s. {}'.format(variable_in_word),
 		xlabel = variable_in_word,
 		ylabel = r'Power',
-		name = 'results/figures/Power-Vary-p-rep-{}.eps'.format(rep), 
+		name = 'results/figures/Power-Vary-p-rep-{}.png'.format(rep), 
 		 add_classical = True,
 		 graphtype='power') 
 	
@@ -142,7 +142,7 @@ def plot_grid_single(x,y,yerr, title, xlabel, ylabel, name, graphtype = 'power')
 		ax.set_ylim(bottom = 0,top=1)
 	else:
 		ax.set_ylim(bottom = 0,top=1)
-	plt.savefig(name, format='eps', dpi=1000) 	
+	plt.savefig(name, format='png', dpi=200) 	
 
 def plot_grid(path, saved_file):
 	output = np.load(path + saved_file)
@@ -160,13 +160,13 @@ def plot_grid(path, saved_file):
 		title = r'FDR v.s. Communication, for Grid Graph',
 		xlabel = variable_in_word,
 		ylabel = r'Achieved FDR',
-		name = 'results/figures/FDR-Vary-c-grid-rep-{}.eps'.format(rep),
+		name = 'results/figures/FDR-Vary-c-grid-rep-{}.png'.format(rep),
 		 graphtype='fdr') 
 
 	plot_grid_single(x=var_range,y=y_pow,yerr=yerr_pow,
 		title = r'Power v.s. Communication, for Grid Graph',
 		xlabel = variable_in_word,
 		ylabel = r'Power',
-		name = 'results/figures/Power-Vary-c-grid-rep-{}.eps'.format(rep),
+		name = 'results/figures/Power-Vary-c-grid-rep-{}.png'.format(rep),
 		 graphtype='power') 
 
