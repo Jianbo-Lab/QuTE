@@ -35,8 +35,8 @@ python run_simulations.py --experiment plot_grid
 ```
 Data and plots used in our paper use 1,000 replications. Below we plot the results from two experiments here. The figures can also be found in simulations/results/figures.  
 
-![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/FDR-Vary-p-rep-1000.eps) ![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/Power-Vary-p-rep-1000.eps)
-![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/FDR-Vary-c-grid-rep-1000.eps) ![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/Power-Vary-c-grid-rep-1000.eps)
+![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/FDR-Vary-p-rep-1000.png) ![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/Power-Vary-p-rep-1000.png)
+![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/FDR-Vary-c-grid-rep-1000.png) ![Alt text](https://github.com/Jianbo-Lab/QuTE/tree/master/simulations/results/figures/Power-Vary-c-grid-rep-1000.png)
 
 We also provide the source code to replicate our experiment on Intel Lab Data:
 
