@@ -34,12 +34,12 @@ python run_simulations.py --experiment plot_gnp
 python run_simulations.py --experiment plot_grid
 ```
 Data and plots used in our paper use 1,000 replications. Below we plot the results from two experiments:  
-  
+   
 Experiment on G(n,p):
 
-| [Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/FDR-Vary-p-rep-1000.png) | ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/Power-Vary-p-rep-1000.png) |
+| ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/FDR-Vary-p-rep-1000.png) | ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/Power-Vary-p-rep-1000.png)|  
 |:---:|:---:|
-| Achieved FDR v.s. p | Power v.s. p | 
+| Achieved FDR v.s. c | Power v.s. c | 
 
 Experiment on grid graphs:
 
