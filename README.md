@@ -39,13 +39,13 @@ Experiment on G(n,p):
 
 | ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/FDR-Vary-p-rep-1000.png) | ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/Power-Vary-p-rep-1000.png)|  
 |:---:|:---:|
-| Achieved FDR v.s. c | Power v.s. c | 
+| Achieved FDR v.s. p in G(n,p) | Power v.s. p in G(n,p) | 
 
 Experiment on grid graphs:
 
 | ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/FDR-Vary-c-grid-rep-1000.png) | ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/Power-Vary-c-grid-rep-1000.png)|  
 |:---:|:---:|
-| Achieved FDR v.s. c | Power v.s. c | 
+| Achieved FDR v.s. Rounds of communication | Power v.s. Rounds of communication | 
 
 The figures can also be found in simulations/results/figures. Details can be found in our paper. 
 
