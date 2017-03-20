@@ -45,6 +45,7 @@ We also provide the source code to replicate our experiment on Intel Lab Data:
 cd applications/
 python run_real_data.py
 ```
-The generated figures can be found in applications/results. 
- 
+Below are three generated figuers with threshold on communication probability being 0.1, 0.3, 0.5 respectively. The figures can also be found in applications/results. Details can be found in our paper.
+
+![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/applications/results/sensor-graph-threshold-0.1.png) ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/applications/results/sensor-graph-threshold-0.3.png) ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/applications/results/sensor-graph-threshold-0.5.png)
 
