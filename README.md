@@ -33,11 +33,15 @@ python run_simulations.py --experiment plot_gnp
 # Plot figures for the second experiment on grid graphs.
 python run_simulations.py --experiment plot_grid
 ```
-Data and plots used in our paper use 1,000 replications. Below we plot the results from two experiments here. The figures can also be found in simulations/results/figures.  
+Data and plots used in our paper use 1,000 replications. Below we plot the results from two experiments:  
+  
+Experiment on G(n,p):
+| [Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/FDR-Vary-p-rep-1000.png)  | ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/Power-Vary-p-rep-1000.png) |  
 
-![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/FDR-Vary-p-rep-1000.png) ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/Power-Vary-p-rep-1000.png)
+Experiment on grid graphs:
+| ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/FDR-Vary-c-grid-rep-1000.png) | ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/Power-Vary-c-grid-rep-1000.png)|  
 
-![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/FDR-Vary-c-grid-rep-1000.png) ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/simulations/results/figures/Power-Vary-c-grid-rep-1000.png)
+The figures can also be found in simulations/results/figures. Details can be found in our paper. 
 
 We also provide the source code to replicate our experiment on Intel Lab Data:
 
@@ -48,5 +52,7 @@ python run_real_data.py
 ```
 Below are three generated figuers with threshold on communication probability being 0.1, 0.3, 0.5 respectively. The figures can also be found in applications/results. Details can be found in our paper.
 
-![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/applications/results/sensor-graph-threshold-0.1.png) ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/applications/results/sensor-graph-threshold-0.3.png) ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/applications/results/sensor-graph-threshold-0.5.png)
 
+| ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/applications/results/sensor-graph-threshold-0.1.png) | ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/applications/results/sensor-graph-threshold-0.3.png) | ![Alt text](https://github.com/Jianbo-Lab/QuTE/blob/master/applications/results/sensor-graph-threshold-0.5.png) |
+|:---:|:---:|:---:|
+| Threshold=0.1 | Threshold=0.3 | Threshold=0.5 |
